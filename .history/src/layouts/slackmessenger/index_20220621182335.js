@@ -44,12 +44,7 @@ function SlackMessenger() {
             payloadts: threads.payloadts,
             payloadtext: ev.target.value,
           });
-          const changeInputLabel = document.querySelector(".MuiInputLabel-root");
-          const changeInput = document.querySelector(".MuiInput-root");
-          const changeToSuccess = document.querySelector(".MuiAlert-root");
-          changeInputLabel.textContent = "Message Replied!";
-          changeInput.textContent = "";
-          changeToSuccess.color = "error";
+          TextField.label = "Message Sent!";
         }
       }}
     />

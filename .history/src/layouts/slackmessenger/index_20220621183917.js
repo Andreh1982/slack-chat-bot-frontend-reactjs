@@ -46,10 +46,8 @@ function SlackMessenger() {
           });
           const changeInputLabel = document.querySelector(".MuiInputLabel-root");
           const changeInput = document.querySelector(".MuiInput-root");
-          const changeToSuccess = document.querySelector(".MuiAlert-root");
-          changeInputLabel.textContent = "Message Replied!";
-          changeInput.textContent = "";
-          changeToSuccess.color = "error";
+          changeInputLabel.textContent = "Message Sent!";
+          changeInput.textContent = "";          
         }
       }}
     />

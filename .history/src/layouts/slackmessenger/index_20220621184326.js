@@ -49,7 +49,7 @@ function SlackMessenger() {
           const changeToSuccess = document.querySelector(".MuiAlert-root");
           changeInputLabel.textContent = "Message Replied!";
           changeInput.textContent = "";
-          changeToSuccess.color = "error";
+          changeToSuccess.color = "success";
         }
       }}
     />
